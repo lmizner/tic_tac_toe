@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <title>Lauren Mizner</title>
+    </head>
+
+    <body>
+        <h1>Lauren Mizner</h1>
+        <div class="topnav">
+            <a href="#home" onclick="document.location='index.html'">Home</a>
+            <a class="active" href="#projects" onclick="document.location='projects.html'">Projects</a>
+            <a href="#resume" onclick="document.location='resume.html'">Resume</a>
+            <a href="#socials" onclick="document.location='social.html'">Social Media</a>
+        </div>
+
+        <div>
+            <br><br>
+            <p class="bold">LET'S PLAY TIC-TAC-TOE!</p>
+            <p>Start the game by selecting the location of your first move.</p>
+            <canvas id="Canvas" width="450" height="450" style="border:1px solid black"></canvas>
+            <br><br>
+            <button class="project-button" id="restart_button">Start Over</button>
+        </div>
+
+        <script src="tictactoe.js"></script>
+        <script src="minimax.js"></script>
+
+    </body>
+</html>
